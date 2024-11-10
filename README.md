@@ -1,2 +1,2 @@
 # Heroes-Pages
-Repositorio para una pagina donde se puede visualizar los heroes de DC y Marvel
+Pagina donde puedes visualizar los datos de tus heroes de DC y Marvel
