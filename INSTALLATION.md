@@ -6,7 +6,7 @@ Este documento proporciona una guía detallada para instalar y configurar este p
 
 Antes de instalar el proyecto, asegúrate de cumplir con los siguientes requisitos:
 
-- **Node.js** 
+- **Node.js** :https://nodejs.org/en/download/package-manager
 - **Git**
 - **React Router v6**
 
