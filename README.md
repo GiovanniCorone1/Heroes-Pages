@@ -4,13 +4,13 @@ Este es un proyecto fronted para el curso de gestión de la configuración de so
 
 ## Descripción 📋
 
-El sitio web permite buscar un heroe, saber , .
-Se utlizo hooks propios de React y de react router doom
+El sitio web permite buscar un heroe y tener una card de este personaje donde se puede visualizar su alter ego, su primera aparición en comics ,etc .
+Se utlizo hooks propios de React y de react router doom.
 
 ## Características ✨
 
 - Hooks usados :useState , useReducer , useNavigate , useContext ,useMemo
-- Para los estilos se uso Boostrap
+- Para los estilos se uso Bootstrap
 
 ## Requisitos 🔧
 
