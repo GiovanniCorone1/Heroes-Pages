@@ -24,8 +24,35 @@ Instalar React Router v6
 
 ```bash
 yarn add react-router-dom@6
-
 ```
 o
 ```bash
 npm add react-router-dom@6
+```
+Instalar paquete query-string
+```bash
+yarn add query-string
+```
+o
+```bash
+npm add query-string
+```
+
+## Paso 3: Ejecutar el Proyecto 🚀
+```bash
+yarn run dev
+```
+o
+```bash
+npm run dev
+```
+
+### Explicación de cada sección:
+
+1. **Requisitos del Sistema**: Lista las herramientas o dependencias previas necesarias.
+2. **Clonar el Repositorio**: Instrucciones para obtener el proyecto en local.
+3. **Instalar Dependencias**: Instalación de los paquetes necesarios.
+
+Este archivo es útil para usuarios o colaboradores que necesiten un proceso de instalación más detallado.
+
+
