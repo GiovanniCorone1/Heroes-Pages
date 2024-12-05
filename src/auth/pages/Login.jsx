@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom"
 import { AuthContext } from "../context/AuthContext";
+import './Login.css'
 export const Login = () => {
   //usamos el contexto
   const {login}= useContext(AuthContext)
@@ -16,6 +17,7 @@ export const Login = () => {
   }
 
   return (
+    <>
     <div className="container mt-5">
     <h1>Bienvenido a Heroes Pages</h1>
     <hr /> 
@@ -26,5 +28,14 @@ export const Login = () => {
       Ingresar
     </button>
     </div>
+    <article className="contenedor">
+      <img 
+      className="imagen-login"
+      src={`/assets/login/spiderman.png`} 
+      alt="spiderman" 
+      />
+    </article>
+        
+    </>
   )
 }

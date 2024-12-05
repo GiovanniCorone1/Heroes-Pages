@@ -1,0 +1,11 @@
+.contenedor{
+  display: block;
+}
+article .imagen-login{
+  display: block;
+  width: 290px;
+  height: 500px;
+  margin: auto;
+  object-fit: cover;
+  filter: drop-shadow(0 0 20px red);
+}
