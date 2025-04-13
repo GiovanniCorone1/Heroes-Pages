@@ -20,7 +20,7 @@ export const Navbar = () => {
                 Heroes
             </Link>
             <div className="navbar-collapse">
-                <div className="navbar-nav">
+                <div className="navbar-nav d-flex align-items-center">
                     <NavLink 
                         className={({isActive})=>`nav-item nav-link ${isActive ? "active" :""}`}
                         to="/marvel"
@@ -36,10 +36,13 @@ export const Navbar = () => {
                     </NavLink>
 
                     <NavLink
-                        className={(isActive)=>`nav-link ${isActive ? "active":""}`}
+                        className={({isActive})=>`nav-item nav-link ${isActive ? "active":""}`}
                         to="/search"
                     >
-                        Buscar
+                        <div className="d-flex align-items-center">
+                            <i className="fas fa-search"></i>
+                            <span className="ms-1">Buscar</span>
+                        </div>
                     </NavLink>
                 </div>
             </div>
